@@ -1,0 +1,29 @@
+***react JS is a javascript library for building user interfaces
+***react JS is declarative, efficient and flexible
+***It is fast and component based
+***It was initially developed and maintained by Facebook
+***React breakes web elements into reusable compnents making it easy to manage complex web interfaces.
+
+***React website keh choto choto kor segment ehh vag kore. 
+
+***React creates a virtual DOM 
+**React's virtual DOM is a javascript rerpresentation of the actual DOM. When updates are made react compares the current DOM to the virtual DOM and only updates the differences between thw two. 
+
+****React first kaj ghulu tar nijer dom ehh koe tar website er dom ehh apply kore ete kore onek fast kaj kore react. 
+
+***Component name Should be start with a captal letter like a function.
+
+****React Er bhitore HTML Er Moto Likha Ghulo Keh Bole JSX Javascript+XML (.jsx)
+
+***Background Ehh ei code ghulu javascript ehh convert kore fele
+***As JSX is a combination of HTML and Javascript it is not supported by Browsers
+<></> (Called as fragment)
+
+***JSX ehh img tag keh li keh p tag keh must closing kora lage jah HTML ehh lagto Nah.
+
+
+JSX:
+class:className
+onclick:onClick
+tabindex:tabIndex
+***JSX provides like curly braces template string withour $ sign like: {}
