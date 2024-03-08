@@ -27,3 +27,85 @@ class:className
 onclick:onClick
 tabindex:tabIndex
 ***JSX provides like curly braces template string withour $ sign like: {}
+
+***Props in unidirectional 
+***props means properties 
+***Props is only read only we can not change value
+
+****Kono file er component ghyla onno file ehh use korte hole first ehh export kora lage tarpopr jei file ehh use korbo oi file ehh import kora lagbe 
+
+export default function Todo(){}
+
+import Todo from './Todo'
+
+
+Conditional rendering: Condition er upor based kore render kore.
+
+// export default function Todo({ task, isDone }) {
+//   if (isDone) {
+//     return <li>Finished: {task}</li>;
+//   } else {
+//     return <li>Work on please</li>;
+//   }
+// }
+// export default function Todo({ task, isDone }) {
+//   if (isDone) {
+//     return <li>Finished: {task}</li>;
+//   }
+//   return <li>Work on please</li>;
+//
+  }
+
+
+// export default function Todo({task,isDone}){
+//     return (
+//         <li>Task: {task} Done: {isDone} </li>
+//     )
+// }
+// export default function Todo({ task, isDone }) {
+//   if (isDone) {
+//     return <li>Finished: {task}</li>;
+//   } else {
+//     return <li>Work on please</li>;
+//   }
+// }
+// export default function Todo({ task, isDone }) {
+//   if (isDone) {
+//     return <li>Finished: {task}</li>;
+//   }
+//   return <li>Work on please</li>;
+//
+// }
+// export default function Todo({ task, isDone }) {
+//   return(
+//     <li>{isDone?'Finished':'Work On'}:{task}</li>
+//   )
+
+// }
+
+// export default function Todo({task,isDone}){
+//     return (
+//         <li>{task} {isDone && ': Done'}</li>
+//     )
+// }
+export default function Todo({task,isDone}){
+    return (
+        <li>{task} {isDone || ': Do it'}</li>
+    )
+}
+
+export default function Todo({ task, isDone }) {
+//   let listItem;
+//   if (isDone) {
+//     listItem = <li>Finished: {task}</li>;
+//   } else {
+//     listItem = <li>Work on please</li>;
+//   }
+//   return listItem;
+// }
+
+***Consitional Rendering 
+
+
+
+
